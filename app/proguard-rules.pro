@@ -1,0 +1,8 @@
+-keepnames class com.asisee.testtask.** {*;}
+-keep class kotlin.Metadata { *; }
+-keep class kotlin.reflect.** { *; }
+-keepclassmembers class * { public <init>(...); }
+-keep class org.koin.** { *; }
+-keep class org.koin.core.** { *; }
+-keep class org.koin.dsl.** { *; }
+-verbose
